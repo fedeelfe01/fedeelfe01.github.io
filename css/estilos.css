@@ -1,0 +1,102 @@
+/* Decidí trabajar solo con estilos de Css, sin usar frameworks, para poder sumergirme mas en el mundo CSS y entender como trabaja*/
+
+h1 {
+    color:rgb(5, 30, 116);
+    text-align: center;
+    text-decoration-line: line-throughl;
+    font-family: "Lucida Handwriting";
+    font-size: 275%;
+    padding: 10px;
+    padding: left 10px;
+
+  }
+
+  h2 {
+    color:rgba(10, 10, 10, 0.795);
+    text-align: left;
+    text-decoration-line: line-throughl;
+    font-family: "Lucida Handwriting";
+    font-size: 200%;
+    padding: 10px;
+    padding: left 10px;
+
+  }
+div {
+    display: block;
+    color:rgb(0, 0, 0);
+    font-size: 30px;
+    font-style: oblique;
+    font-weight: bolder;
+    margin: 10px;
+    margin-right: 5rem;
+  }
+  li {
+    display: block;
+    color:rgb(32, 0, 92);
+    font-size: 25px;
+    font-style: oblique;
+    margin: 5px;
+  }
+ 
+  
+  body{
+    background-image: url(https://images.unsplash.com/photo-1547963802-25f153e14080?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80);
+    background-repeat:no-repeat;
+    background-size: 100rem;
+  }
+
+
+  <style type="text/css">
+#navegador ul{
+   list-style-type: none;
+   text-align: center;
+    
+   
+}
+#navegador li{
+   display: inline;
+   text-align: center;
+   margin: 0 10px 0 0;
+
+}
+#navegador li a {
+  font-size: 21px;
+   padding: 2px 7px 2px 7px;
+   color: #666;
+   background-color: #9da4e5;
+   border: 1px solid #ccc;
+   text-decoration: none;
+}
+#navegador li a:hover{
+   background-color: #333333;
+   color: #ffffff;
+}
+button{
+  color: darkblue;
+  background-color: transparent;
+  font-weight:bold;
+  color: #444;
+  font-size: 1rem;
+  padding: 0.5rem 0.75rem;
+  border: 2px solid #85b0e7;
+  border-radius: .5rem;
+  cursor: pointer;
+  transition: all 1s ease;
+  box-shadow: .5rem .5rem 1rem #ccc,
+  -.5rem -.5rem 1rem #ccc;
+}
+button:hover{
+  box-shadow: .5rem .5rem 1rem #fff,
+  -.5rem -.5rem 1rem #ccc;
+}
+button:active{
+  box-shadow:inset .2rem .2rem 1rem #ccc,
+  -.2rem -.2rem 1rem #ccc;
+}
+
+div.pestaña{
+  font-family: 'Permanent Marker', cursive;
+  font-size: 21px;
+  color: rgb(0, 97, 97);
+  margin-left: 5rem;
+}
